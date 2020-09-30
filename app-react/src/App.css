@@ -1,0 +1,25 @@
+body {
+  background: url(./assets/zalez.png);
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.cont {
+  width: 1000px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.countdown > div > span {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+body {
+  /* background: url(https://firebasestorage.googleapis.com/v0/b/hack-tues.appspot.com/o/zalez.png?alt=media&token=9157c479-8d03-422f-8e7b-5de3a503d060); */
+  background: url(./assets/zalez.png);
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.cont {
+  width: 1000px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.countdown > div > span {
+  display: block;
+  text-align: center;
+}

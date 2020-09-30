@@ -1,0 +1,6 @@
+body {
+  background: url(~assets/zalez.png);
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
